@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>SIMBANA TITO EVELYN LIZBETH</razonSocial>
+<nombreComercial>SIMBAÃA TITO EVELYN LIZBETH</nombreComercial>
+<ruc>1003748207001</ruc>
+<claveAcceso>0408202401100374820700120011000000000070408202418</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>100</ptoEmi>
+<secuencial>000000007</secuencial>
+<dirMatriz>CARANQUI CALLE PRINCESA CORI CORI Y JUANA ATABALIPA</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>04/08/2024</fechaEmision>
+<dirEstablecimiento>CARANQUI CALLE PRINCESA CORI CORI Y JUANA ATABALIPA</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>06</tipoIdentificacionComprador>
+<razonSocialComprador>SAFETYMED SOCIEDAD POR ACCIONES SIMPLIFICADA </razonSocialComprador>
+<identificacionComprador>1091797771001</identificacionComprador>
+<direccionComprador>SAN ANTONIO DE IBARRA CALLE FRANCISCO TERAN Y SIMON BOLIVAR</direccionComprador>
+<totalSinImpuestos>657.64</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>657.64</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>657.640</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>657.640</total>
+<plazo>30</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>SP</codigoPrincipal>
+<descripcion>HONORARIOS POR SERVICIOS PROFESIONALES</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>657.640000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>657.64</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalle" valor="JULIO 2024"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>657.64</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">SAN ANTONIO DE IBARRA CALLE FRANCISCO TERAN Y SIMON BOLIVAR</campoAdicional>
+<campoAdicional nombre="TELEFONO">062615179</campoAdicional>
+<campoAdicional nombre="EMAIL">talentolaslajas@gmail.com</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature231113">
+<ds:SignedInfo Id="Signature-SignedInfo910743">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID957325" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature231113-SignedProperties927010">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>LCyxod5rabLu8ScoUQqpJFNkhww=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate918931">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>YSMjYu8JNpn1CqebdBp/IkwPAQU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-493949" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>B78a2nX4ShufiXAsNzZcmkiqET8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue761588">
+TOGmcTVXDMjWJ6jcZYjdb8FKfmk/L/ZuZNBB3VDj9KoNpVKemvZAqTtVsxXggXoW0iYey7GI+gmR
+1cjQTUZ8li7+yi3d9Mkaf4fjs7PXQ6muPyvVfOfACUE+ZiwV8OQrfv++Pt3O68qRqAfU/bSTtl87
+q8U/7AqIdPW9JWxmZjgdH4/D+iTXwY8K7KeMKjRCMA3D97PCzkJNzWMeqGyItW3l1/XAu2I/aO6M
+s/B5vd6QZcOs14xbxvXAsRdsxOucV5eIeQxRwHmXbh7D8lbBRKFwvzNIQgTlIwoJupEWctFXHKgR
+JzjthrnU3xIjvS7FsRS/9AS3S+PwmjWaZWJ9FQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate918931">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL5TCCCc2gAwIBAgIEaF94KTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDAzMDQxNTQ4MDBaFw0yNTAzMDQxNTQ4MDBaMIGmMSQw
+IgYDVQQDDBtFVkVMWU4gTElaQkVUSCBTSU1CQU5BIFRJVE8xIDAeBgNVBAUTFzEwMDM3NDgyMDct
+MDQwMzI0MTA1NzQxMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALn5YJKFv0Wv9xCmEgsexcc+BDj4vmrmDWAjxW93BdcI
+8MNsssfg7HL5+txWwzdSgLGGAUj+3Yxj7YYi0NEqUwuwb8rX1bQqXO10157mR4qqrEZTkQC6l1+N
+Rdv1L+8Z80fvYR6HYzfcS6U4GgIDFKQLpw9VUAjrbtwgdYk0YsOmk2fk8KutiRdDzAPyhG6+yYkQ
+pa8lEPAz2xcAqgyzQPm2VUo8zNea0WbyZnFZK2reMOTK32GFQLwPWK22ikpjb1oM8PKQD431UmOJ
+onwXHaUwfmAH9T3zkanN4AOvD7BwgqIC9JSHfIJCS4JXzpCgzgJHCEJGD1sit7SLWEHXFpkCAwEA
+AaOCByQwggcgMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8w
+WQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuG
+gbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZv
+Y2F0aW9uTGlzdD9iYXNlMCQGA1UdEQQdMBuBGXRpdG9saWl6YmV0aC4wNUBnbWFpbC5jb20wggEG
+BgNVHSAEgf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBp
+AGMAYQBkAG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGC
+pnICATCBjTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3At
+Y29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMg
+ZGUgQ2VydGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGg
+P4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0
+dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCB
+x6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1v
+cGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0
+ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0y
+IFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9O
+LE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUQxhUPtv2r3JJPzwFjci/kMl3
+vgQwKwYDVR0QBCQwIoAPMjAyNDAzMDQxNTQ4MDBagQ8yMDI1MDMwNDE1NDgwMFowCwYDVR0PBAQD
+AgXgMBoGCisGAQQBgqZyAwEEDAwKMTAwMzc0ODIwNzAYBgorBgEEAYKmcgMJBAoMCENBUkFOUVVJ
+MBEGCisGAQQBgqZyAyIEAwwBLjA5BgorBgEEAYKmcgMHBCsMKVBSSU5DRVNBIENPUkkgQ09SSSA0
+MTI0IFkgSlVBTkEgQVRBQkFMSVBBMB4GCisGAQQBgqZyAwIEEAwORVZFTFlOIExJWkJFVEgwHwYK
+KwYBBAGCpnIDIAQRDA8wMDIwMDEwMDA3ODA4NjcwEQYKKwYBBAGCpnIDIwQDDAEuMBMGCisGAQQB
+gqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNVQURPUjAXBgorBgEEAYKmcgMDBAkMB1NJ
+TUJBTkEwGgYKKwYBBAGCpnIDHgQMDApMSUNFTkNJQURBMB0GCisGAQQBgqZyAwsEDwwNMTAwMzc0
+ODIwNzAwMTARBgorBgEEAYKmcgMdBAMMAS4wFAYKKwYBBAGCpnIDBAQGDARUSVRPMBAGCisGAQQB
+gqZyAwgEAgwAMA0GCSqGSIb3DQEBCwUAA4ICAQBuEDzM75pdS7vtKALZfzXlx6V1zpl0CflVvoFO
+l7nbx/TeF8TgfX6pLMrFFeEf8OGavz+wkkfqo45hPsFKwjTE/tWafzG3KtHZHTCFLG9PERE4nj3j
+1zu3weSoNsbgcdz1TDXYPb+tGJZtHThY1oK9zzioacO+Z4PDXpaGRTSWZVW3sBIgtUG0Js+e/qdB
+hTxvF6A7+6FpZS+W2uCLXvggB4YhVl6zN2vX6VbmoFuT0qqlngBVwtlOHCuNPOxicmI0x/i4m0MJ
+MXw6sJP3t9VNgb/gUGHlotgok3aktLg2fEeYHGnxzvnTBmYHpJdQt8MYYSVfOdz5LlokmNBWPtKn
+19yfp4bUWW/Zdzpiw1DCMwpOxBdzEJmqnRDLNFBTv3CF9mnH+PTsoACQgoGEyKDY8VfSZvQNGBGJ
+icpfFWLTo8L19jRYNMEvSjc0hVcBVbayRGutCK9NAEqsSJBxfZ8ZyXpy4pO1TEyLmWYBmuiw8z9S
+Dm6AEmuGd19P3nOTGZpJ+Fa/aM0rJvHfaSjbphIrJ9lXiIPjurNNuRwXPq6UazMq3tpc0uU9Izo2
+evhCsiCLvIlF9/zGAKbTEBoUy7OOGZxm1W90a5mTk198bdHvy4GE89ENBDrbGTdQfVYsasn9SvJY
+6/cQ1MQoGLCrLy48rKdCEk640IDJSHd64x9J8g==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uflgkoW/Ra/3EKYSCx7Fxz4EOPi+auYNYCPFb3cF1wjww2yyx+Dscvn63FbDN1KAsYYBSP7djGPt
+hiLQ0SpTC7BvytfVtCpc7XTXnuZHiqqsRlORALqXX41F2/Uv7xnzR+9hHodjN9xLpTgaAgMUpAun
+D1VQCOtu3CB1iTRiw6aTZ+Twq62JF0PMA/KEbr7JiRClryUQ8DPbFwCqDLNA+bZVSjzM15rRZvJm
+cVkrat4w5MrfYYVAvA9YrbaKSmNvWgzw8pAPjfVSY4mifBcdpTB+YAf1PfORqc3gA68PsHCCogL0
+lId8gkJLglfOkKDOAkcIQkYPWyK3tItYQdcWmQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature231113-Object833808"><etsi:QualifyingProperties Target="Signature231113"><etsi:SignedProperties Id="Signature231113-SignedProperties927010"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-08-04T21:46:56-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>1XJ+cwSJ2nLEZvyCn7P44QSe1ws=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1751087145</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-493949"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

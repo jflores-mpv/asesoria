@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>1</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>HOSTAL FLOR DE ZAGALA</razonSocial>
+<nombreComercial>CEVALLOS SANCHEZ MICAELA VICTORIA</nombreComercial>
+<ruc>1003664974001</ruc>
+<claveAcceso>1008202401100366497400110010010000000391008202416</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000039</secuencial>
+<dirMatriz>CALLE PRINCIPAL FRENTE AL PARQUE  CENTRAL DE PENAHERRERA</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>10/08/2024</fechaEmision>
+<dirEstablecimiento>CALLE PRINCIPAL FRENTE AL PARQUE CENTRAL DE PENAHERRERA</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>07</tipoIdentificacionComprador>
+<razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+<identificacionComprador>9999999999999</identificacionComprador>
+<direccionComprador>PENAHERRERA</direccionComprador>
+<totalSinImpuestos>13.05</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>13.05</baseImponible>
+<valor>1.96</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>15.010</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>15.010</total>
+<plazo>0</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>S06</codigoPrincipal>
+<descripcion>ALITAS 5</descripcion>
+<cantidad>3</cantidad>
+<precioUnitario>4.350000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>13.05</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>13.05</baseImponible>
+<valor>1.96</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">PENAHERRERA</campoAdicional>
+<campoAdicional nombre="EMAIL">cucusita-victoria@hotmail.com</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature786968">
+<ds:SignedInfo Id="Signature-SignedInfo750068">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID344924" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature786968-SignedProperties376624">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>9BqsPR3yO9G5cPkTyH0PxTuP7NY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate348674">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>gxBNyIUITcvSVfmREVkfXhsUPTM=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-829303" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>NIQSIZ3W+12DQUnJZcEMvfCj9MY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue957173">
+mxJ+QqHDukAa98sm7wcO2F8wO1WCkH0fKzUG5aH5HkRYYSWmMEpkoLtjz42438r4CHf4kst75opd
+YpbZ8SbQAU9HJ+ZIMqj5Dx+QOGA9nQpP9CybQ48lr+FbfOcGFLL3tUZwP/qvkHRTZqsCGlWXzvOM
+y218D20yJop5Kt3XI4Fw6phhxRC5ornAhUEETa6oQ5Oc3OIGwwLI6GCOYxC9Tg9cNG7vgLuH5xJD
+5KLPQHMBrD2aV8PGmiPzc1QWIr+KqxgQwYaMedAX+/3aMgFm22EjE/qlmxeab3JeU5+W6lJMgMcn
+StFwAygzMsZMv1eyUMTTFNWrAzXjQN3bpWvyfA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate348674">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJODCCByCgAwIBAgIEZeQJrTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI0MDcwNTEzMzMzMFoXDTI2MDcwNTE0MDMz
+NFowgboxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE+MBEGA1UEBRMKMDIwMDAzMzMwMzApBgNVBAMTIk1JQ0FFTEEgVklDVE9S
+SUEgQ0VWQUxMT1MgIFNBTkNIRVowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwU6cU
+PJsbvACXqT4mO6GI7f2FdBNTlRcP9rZJXeZduHbt+/jSvhzjWfCsrDnOHowOXdI1Y1nSUpBZbATH
+Ft71apDrACq9PxZrOC8hVM54HU9/9hczMEtJQr83pvBsi7gUleYIXLfE3vqf6JC9YtMfLZcOvqEE
+51F6Nd4Zda7FyFy/FMfwRhNG+6W8rAKJlziH4BRFUxQmrjOeRHnYbG76wTrJeAzfGwWKGZWORfh1
+GU49unhyNMXzwvgQuT10jzugvBjJdRyd1nx6OCLRZbxkG+Wue/deGUL2bd4n0K7Uxl+VVayw/pz4
+Vsr4ZfBufU23XPoRJgHPbRrpGLiFudFZAgMBAAGjggRbMIIEVzALBgNVHQ8EBAMCBSAwgZEGCCsG
+AQUFBwEBBIGEMIGBMD4GCCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1
+YmxpY3dlYi9zdGF0dXMvb2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMv
+ZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMBoGCisGAQQBgqg7AwEEDBMKMTAwMzY2NDk3NDAh
+BgorBgEEAYKoOwMCBBMTEU1JQ0FFTEEgVklDVE9SSUEgMBkGCisGAQQBgqg7AwMECxMJQ0VWQUxM
+T1MgMBcGCisGAQQBgqg7AwQECRMHU0FOQ0hFWjA/BgorBgEEAYKoOwMHBDETL0NsYXVkaW8gTWFu
+ZXQgMS0xMTMgeSBBdXJlbGlvIEdvbWV6anVyYWRvIEVyYXpvMBkGCisGAQQBgqg7AwgECxMJMDY1
+MDAwMjg2MBYGCisGAQQBgqg7AwkECBMGSUJBUlJBMBcGCisGAQQBgqg7AwwECRMHRUNVQURPUjAd
+BgorBgEEAYKoOwMLBA8TDTEwMDM2NjQ5NzQwMDEwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1B
+UkNISVZPMCgGA1UdEQQhMB+BHWN1Y3VzaXRhLXZpY3RvcmlhQGhvdG1haWwuY29tMIIB4QYDVR0f
+BIIB2DCCAdQwggHQoIIBzKCCAciGgdZsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JM
+MjAzOSxjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1F
+TlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1C
+QU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9u
+TGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNv
+bWIuY3JspIG2MIGzMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNV
+QURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVD
+SUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFE
+T1IxEDAOBgNVBAMTB0NSTDIwMzkwHwYDVR0jBBgwFoAUSKLfIx8d+CxReowDzUkypQnBlKswHQYD
+VR0OBBYEFFT2xNNaNQ3t+nRtkOIQ51qBFnvDMAkGA1UdEwQCMAAwGQYJKoZIhvZ9B0EABAwwChsE
+VjguMwMCBDAwDQYJKoZIhvcNAQELBQADggIBAFrLH5btXVqXeXYWVR6bv6I6CatPKEbLvA/VOwQ0
+BpzBJAQYCdlrMNSZxtVRKdDaoKxFcol0Fcz4czOEWMjWVSbywjMe8M4+7GdLZk3rIJpVHYML+qcW
+p9y+DWH6FHn1kNZAS35N3kLToxuFCuH/gHePRgwrFHTsMDzQv1M58mOoL/mjD1azS0NxzfNtYEpc
+kKTC5TclwIl6eqXl1sY4Hypx09zxZ7+7bj2mA4idX4eorbtMWIAQKjlTv0DcI/AsTKvK8ZaDwcAu
+ggvTMtpT0NshWMhXA79XUT8iny1X0huLvZVyF3JepKoyXKCa8497ioersyVThpdHJmLMdiUkWUPH
+OLh9v5o2MO02MEkVV9h3vw1DnwLZ4lATAKiUeYrjONytHjE6BmjY4wGwK3wus70zLAJB+yDnsSx/
+8C2VTtErmspIGroCronHX7LV8TPZWkeB7cqtwifPsmbMOUxZi9Io7xCd2A5zbyVlMMOp/agEUQtX
+7wCxFCEFN5OIhZmpNYUH+qa+FvjRt9F60/LpJtslzIKF/Rk3n27aoL4kFTDlqPX48L9hffKC4ypQ
+f57TiIDDrwdeiB+y0F1S/9uQ18Yt67qXm1k030U1O55dGXAtb9hX0XIw6W1wZ9q5kUX2TfC0RIK8
+WyuvmBGXYKuLZ/CUQpg0vXttCxvtm6JlWQ/m
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sFOnFDybG7wAl6k+JjuhiO39hXQTU5UXD/a2SV3mXbh27fv40r4c41nwrKw5zh6MDl3SNWNZ0lKQ
+WWwExxbe9WqQ6wAqvT8WazgvIVTOeB1Pf/YXMzBLSUK/N6bwbIu4FJXmCFy3xN76n+iQvWLTHy2X
+Dr6hBOdRejXeGXWuxchcvxTH8EYTRvulvKwCiZc4h+AURVMUJq4znkR52Gxu+sE6yXgM3xsFihmV
+jkX4dRlOPbp4cjTF88L4ELk9dI87oLwYyXUcndZ8ejgi0WW8ZBvlrnv3XhlC9m3eJ9Cu1MZflVWs
+sP6c+FbK+GXwbn1Nt1z6ESYBz20a6Ri4hbnRWQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature786968-Object369301"><etsi:QualifyingProperties Target="Signature786968"><etsi:SignedProperties Id="Signature786968-SignedProperties376624"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-08-19T07:21:52-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>JbUxqT3JTUQuGWnpHVvK/oYhz+U=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709443501</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-829303"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

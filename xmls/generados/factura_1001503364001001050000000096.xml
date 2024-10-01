@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>ALMEIDA MORILLO ESTALIN FABIAN</razonSocial>
+<nombreComercial>ALMEIDA MORILLO ESTALIN FABIAN</nombreComercial>
+<ruc>1001503364001</ruc>
+<claveAcceso>0509202401100150336400120010500000000960509202411</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>050</ptoEmi>
+<secuencial>000000096</secuencial>
+<dirMatriz>PANAMERICANA NORTE KM 8 Y MIGUEL ANGEL SANIPATIN</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>05/09/2024</fechaEmision>
+<dirEstablecimiento>PANAMERICANA NORTE KM 8</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+<razonSocialComprador>Mariela Rebeca  Patino Estupinan</razonSocialComprador>
+<identificacionComprador>0803192517</identificacionComprador>
+<direccionComprador>Esmeraldas</direccionComprador>
+<totalSinImpuestos>260.87</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>260.87</baseImponible>
+<valor>39.13</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>300.000</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>300.000</total>
+<plazo>8</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>F01</codigoPrincipal>
+<descripcion>FURGON METALICO</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>260.869560</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>260.87</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>260.87</baseImponible>
+<valor>39.13</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">Esmeraldas</campoAdicional>
+<campoAdicional nombre="EMAIL">marielapatio1202@gmail.com</campoAdicional>
+<campoAdicional nombre="DETALLE">Motor:  93051541
+Chasis: HFC1160KR1T
+RAMV/CPN: G03000331
+Marca: JAC
+Color: Azul  
+</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature737334">
+<ds:SignedInfo Id="Signature-SignedInfo143156">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID210791" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature737334-SignedProperties482475">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>X8ATHm5mwkRSBWJYaNT6Fm1uEl4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate538318">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>OKiWHgGtOPog9+Ybw++sFHb0LfE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-786721" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>2ydEhBpLdHS0Yj7mc3f5//0us4c=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue991059">
+F68kWdkY1hWxiQrN7Srn+MOVcLdQNL9px/M7b68CjIgsk9AtgFOoJ3d7H4tChqmtEUpAMUnp2IVb
+1+QeUlsupWvisuW1Qn8OKpiQ4A8p1mqoCpWbTS6H6/f+vmaq8TxHV8qYGeduILzxcVJkzHqj61GW
+cbMMWLLLL6RuBzngtz+Ffq1td/eXOZ1/kmmi2GMClmFlRJ+3I9heWVCiHvYWw9pQd76gJA1/ycMd
+iE5nelTw7zJc+zkr9xQLZubXwrVHR6ZvUPKQqRaRd1/OuI6KNkpm8MRC9YsBB+upwjKxc00HXCF4
+gFplMVvtwQqeXiVQt529qacOw3ZAlWHPw67V6g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate538318">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILyDCCCbCgAwIBAgIEaNCSyDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA2MjYyMjEwMjVaFw0yNTA2MjUyMjEwMjVaMIGeMScw
+JQYDVQQDDB5FU1RBTElOIEZBQklBTiBBTE1FSURBIE1PUklMTE8xFTATBgNVBAUTDDI2MDYyMzE3
+MTk1MTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCx+QXQtS7H1KwkWnp3XgWYQM2BOgpz2mO443wz/yPVrCsoPz54qPYN
+PeLHippPiQIGcmT5Y8kn0cYo8ixi+Y3Ra4QxgpNDiRtonlQaoZ89cF91h04iOeSF3mbI81JBWzlH
+28U4j6YQVCqTZyS7dmh+Fxr8U4IP+dk6P0S5dIvBGY1B37gCxcyLiT17j2PVpLnXYOawlBdLCRgv
+ZUaPKMSrjxvGBqJXZw9mhvsJkP/6u7azotRtQ0SPmHMBW23wxbhOqOfKWmF68BaLEyXHLtOiEzTx
+QYD3qDp7Mv3z5MbuBt11oU+BND2X2K+avNwtiEcPmslGMGt/Gi+OM6VMhVI9AgMBAAGjggcPMIIH
+CzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUF
+BwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2Vq
+YmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDov
+L2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FD
+SU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxp
+c3Q/YmFzZTAkBgNVHREEHTAbgRljYXJyb2NlcmlhczE5NzBAeWFob28uY29tMIIBBgYDVR0gBIH+
+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0w
+gYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQv
+ZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRp
+ZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6
+Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Ci
+gZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VD
+VVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGG
+gb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNh
+dGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3Iy
+LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21k
+PWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklU
+WSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VS
+SVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFJ7z0HdgM/i3/0Dh2Z49QrXX0p+SMCsGA1Ud
+EAQkMCKADzIwMjMwNjI2MjIxMDI1WoEPMjAyNTA2MjUyMjEwMjVaMAsGA1UdDwQEAwIF4DAaBgor
+BgEEAYKmcgMBBAwMCjEwMDE1MDMzNjQwHAYKKwYBBAGCpnIDCQQODAxBTlRPTklPIEFOVEUwEQYK
+KwYBBAGCpnIDIgQDDAEuMBwGCisGAQQBgqZyAwcEDgwMUEFOQU1FUklDQU5BMB4GCisGAQQBgqZy
+AwIEEAwORVNUQUxJTiBGQUJJQU4wHwYKKwYBBAGCpnIDIAQRDA8wMDEwMDIwMDA0MTg3MjMwEQYK
+KwYBBAGCpnIDIwQDDAEuMBMGCisGAQQBgqZyAyEEBQwDUEZYMBcGCisGAQQBgqZyAwwECQwHRUNV
+QURPUjAXBgorBgEEAYKmcgMDBAkMB0FMTUVJREEwEQYKKwYBBAGCpnIDHgQDDAEuMB0GCisGAQQB
+gqZyAwsEDwwNMTAwMTUwMzM2NDAwMTARBgorBgEEAYKmcgMdBAMMAS4wFwYKKwYBBAGCpnIDBAQJ
+DAdNT1JJTExPMBoGCisGAQQBgqZyAwgEDAwKMDk4NTUzMDcxMzANBgkqhkiG9w0BAQsFAAOCAgEA
+r6PVNJhV5Sg+lrmkOSn/h6YCJ0HiBc5uTSed2gI5PfgqFgumgn1DYF0/xvlGXxcdhyqTgMNCm4eu
+teR1NzCSBzWTvpHd2644iCKYHUyUBXGUymCXSi02TsaRxUsvU6wM3up65P6ngMPEZbGulFSjGGcC
+WR7/SJV/0mcIjP+W/qFkK67X2W5dI90kfpuupZ5wdWYcr305VUh8XUHbVt5C3sVvznsZNiK5eHCb
+jBjdT5TMemfLNRCjCAixBQjbqwBdJz2OXBVDAOcLg6HpwLUkfrBsZB5VV5pQZSAaZMdzfNwYn6XX
+BfpZTl+sLKV2SrC2K9nJ/FsUqjUIG3EgLQAGFzwVh/4qjuNYxlsgekN77Xk9JV/rTgUjCelqnapI
+J+NofGYs1dGzQtB2k0ixGj4yihU65lqXr9LQXzg4Q9QhHu9qH1qVMHMwvKhFHLgKK7WjAj3BbJKz
+mBJgsJSzT49zCfXAkhLXkNkGWrgJiL3p85Ce4mNF4a3o6xFO3E0QGg6/ffUrQqjGZ0JmDk3LQKPu
+4boRFk/iflXdPMA5bktwJk0oUmrzAtlM1OSp4CQ9StHNZ0JQZyz7dfzrL7mx2ggo+rK12rB+FUAe
+JIpNeHoaWIRADHpwCiIebIHRDNfwHUZZMhEPXlnme8hnXMo2j2NIT4v9RpdxyYWaAfXNxnpAB8A=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sfkF0LUux9SsJFp6d14FmEDNgToKc9pjuON8M/8j1awrKD8+eKj2DT3ix4qaT4kCBnJk+WPJJ9HG
+KPIsYvmN0WuEMYKTQ4kbaJ5UGqGfPXBfdYdOIjnkhd5myPNSQVs5R9vFOI+mEFQqk2cku3Zofhca
+/FOCD/nZOj9EuXSLwRmNQd+4AsXMi4k9e49j1aS512DmsJQXSwkYL2VGjyjEq48bxgaiV2cPZob7
+CZD/+ru2s6LUbUNEj5hzAVtt8MW4TqjnylphevAWixMlxy7TohM08UGA96g6ezL98+TG7gbddaFP
+gTQ9l9ivmrzcLYhHD5rJRjBrfxovjjOlTIVSPQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature737334-Object155499"><etsi:QualifyingProperties Target="Signature737334"><etsi:SignedProperties Id="Signature737334-SignedProperties482475"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-09-05T14:19:11-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>VifjJdb1/T4V2HpbdYJUdAuyX48=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1758499528</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-786721"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

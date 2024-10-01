@@ -1,0 +1,39 @@
+.bg-oficont{
+    background-color: #414d59;
+}
+
+.bg-oficont2{
+    background-color: #94f0fe;
+}
+
+.bg-oficont3{
+    background-color: #f6ede5;
+}
+
+
+.thumbnail { 
+ position: relative; 
+} 
+.caption { 
+ position: absolute; 
+ top: 30%; 
+ left: 0; 
+ width: 100%; 
+ color:white;
+ font-size:80px;
+ font-weight:50px;
+} 
+
+
+
+.text-oficont{
+    color: #414d59;
+}
+
+.text-oficont2{
+    color: #414d59;
+}
+
+.text-oficont3{
+    color: #414d59;
+}

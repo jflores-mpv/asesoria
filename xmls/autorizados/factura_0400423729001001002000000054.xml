@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0909202401040042372900120010020000000540909202417</numeroAutorizacion>
+<fechaAutorizacion>2024-09-09T08:19:28-05:00</fechaAutorizacion>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>GARCES ALDAS GLORIA MAGDALENA</razonSocial>
+<nombreComercial>GARCES ALDAS GLORIA MAGDALENA</nombreComercial>
+<ruc>0400423729001</ruc>
+<claveAcceso>0909202401040042372900120010020000000540909202417</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>002</ptoEmi>
+<secuencial>000000054</secuencial>
+<dirMatriz>IBARRA. CALLE VENANCIO GOMEZJURADO 1-39</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>09/09/2024</fechaEmision>
+<dirEstablecimiento>IBARRA. CALLE VENACIO GOMEZJURADO 1-139 Y AV. FRAY VACAS GALINDO</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>AUTOEASTERN S.A. </razonSocialComprador>
+<identificacionComprador>1791806956001</identificacionComprador>
+<direccionComprador> PICHINCHA / QUITO / SAN BARTOLO / AV. PEDRO VICENTE MALDONADO</direccionComprador>
+<totalSinImpuestos>222.22</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>222.22</baseImponible>
+<valor>33.33</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>255.550</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>255.550</total>
+<plazo>0</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>A01</codigoPrincipal>
+<descripcion>ALQUILER LOCAL COMERCIAL</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>222.220000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>222.22</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalle" valor="DESDE EL 01-09-2024 AL 30-09-2024"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>222.22</baseImponible>
+<valor>33.33</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION"> PICHINCHA / QUITO / SAN BARTOLO / AV. PEDRO VICENTE MALDONADO</campoAdicional>
+<campoAdicional nombre="EMAIL">hcarchi@autoeastern.com.ec;analista2@autoeastern.com.ec;ceag82@hotmail.com;susypga@hotmail.com</campoAdicional>
+<campoAdicional nombre="DETALLE">SEPTIEMBRE 2024</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature141811">
+<ds:SignedInfo Id="Signature-SignedInfo355269">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID460946" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature141811-SignedProperties124777">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>XiQ6cpkhhfay77HTNs8HTSBNVzA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate854048">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>2ruO+gqpUgXzGhs3pcAbkqVOsrg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-790778" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>HS/DvYiOfSDRxxG49OkJKKfbbeQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue958054">
+Za6add0AWNdKNi4m63nmtI1eY0HxzXfIIlPaNBNYl27jMe52n5Iw7wfxbfj6vs6MOfSF8aPIBSBO
+IgVWmc1oJs014HPbuXLu7rE50OMPAgKnH26zLX5JZ/U8qINJ2QKYcWKdCXuWDes8EqD3TSz2R2uu
+jKJMyM3w1nb/bPrs5y/aC9iBEXCgH//EaPKzkDtd9ippdHu+tuCktQhbr+3VZPmkmgsCAPGUYb/W
+MZb09ijX3DTodhx50SVrnQ6xAkVTsKL+/eqbDEQbahjO9F6wo0Qi6pvyMdMCAGosNrweW2NegFYk
+LfjA5KXjduFA5twcN9f2U2ThaLAoAZemGPGx+Q==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate854048">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL5DCCCcygAwIBAgIETHm9/zANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA2MDUxOTI0MDVaFw0yNjA2MDQxOTI0MDVaMIGdMSYw
+JAYDVQQDDB1HTE9SSUEgTUFHREFMRU5BIEdBUkNFUyBBTERBUzEVMBMGA1UEBRMMMDUwNjIzMTQz
+MzM4MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAb
+BgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALDQ+4WJVr+r7FO+hOJL7FYOwj2q0OLkkFpHK5+U18tv7e5IcAOoQBD0
+2ylAr8wN94IlhJOSDHV4twluLDRZsWCfF/ANsv7T9tzt9WbIzRA6G33RRd+WLFvWQKKsj/BdvMdk
+8528n4fE7HKZl1RgHGo27k0nuZgG2GGU+v1rimf7AHX6sZf370tbERTv8Q9f22lM0qMW+nWSF132
+ATn+aVobgZiLT2I8ut8ZLx7wCX+4OPeNAbw1U3fRIt+UtCfJVnAKgdsGqYcGyPUUOCWZnLqiH5Tt
+rQLFg0CxSUW5MQhRqpFwS5ohxnuHLbPqSG78fIxw9gfOs7S5FAp2kmyg4/MCAwEAAaOCBywwggco
+MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUH
+AQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpi
+Y2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFwOi8v
+bGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJ
+T04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlz
+dD9iYXNlMCIGA1UdEQQbMBmBF2dnYXJjZXMyMjA3QGhvdG1haWwuY29tMIIBBgYDVR0gBIH+MIH7
+MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEAZABvACAA
+ZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEwgY0wgYoG
+CCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93
+bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmlj
+YWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9v
+Y3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+k
+gZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJ
+VFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9O
+MR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5s
+ZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJ
+RklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lP
+TiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVS
+ZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNl
+Y3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNy
+bCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBE
+QVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZ
+IERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFP3BvhVnaEe8bACjWX/SDgQqDY9PMCsGA1UdEAQk
+MCKADzIwMjMwNjA1MTkyNDA1WoEPMjAyNjA2MDQxOTI0MDVaMAsGA1UdDwQEAwIF4DAaBgorBgEE
+AYKmcgMBBAwMCjA0MDA0MjM3MjkwFgYKKwYBBAGCpnIDCQQIDAZJQkFSUkEwEQYKKwYBBAGCpnID
+IgQDDAEuMEIGCisGAQQBgqZyAwcENAwyVkVOQU5DSU8gR09NRVogSlVSQURPIDEgMzkgWSBBViBG
+UkFZIFZBQ0FTIEdBTElORE8wIAYKKwYBBAGCpnIDAgQSDBBHTE9SSUEgTUFHREFMRU5BMB8GCisG
+AQQBgqZyAyAEEQwPMDAyMDAxMDAwNjMzMDg3MBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEEAYKm
+cgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZHQVJD
+RVMwEQYKKwYBBAGCpnIDHgQDDAEuMB0GCisGAQQBgqZyAwsEDwwNMDQwMDQyMzcyOTAwMTARBgor
+BgEEAYKmcgMdBAMMAS4wFQYKKwYBBAGCpnIDBAQHDAVBTERBUzAaBgorBgEEAYKmcgMIBAwMCjA5
+ODQ2NzA3NzIwDQYJKoZIhvcNAQELBQADggIBAGzLOhXVXuSOsDcvqOQ9m/Jj11DPEMtYNHpNYo95
+R1fOl3XVicBe7gr9RxR/NrBLgkPIGt0BAwDI3LqzPgiN6IFZkhHuTg0RinWDsZj+XKvj6Lo8h3ej
+w0Y9C+avgvIZ4D0tgPboOJh6aeHpQP8zvujYYHPKwRNlUONpjjlmm+OAiec5DDDZ1psmHUM2/CCb
+l2VkFqfYQCCr433xtaLKQoLvN9vdHycDGW8uXIVojgqoA+ZbmKS++WWls6OVavuzp9CZq8m5PJjO
+ndtC6CwNaPVf22Vi+h+iO7efYPa7Wvy30n/ROIWwRPU/HA1ykwxiReVgvbEF3sju0wIBnHSLo0jb
+ntBsGmcP1ECgUxgf+BB8IuHW3CGhmZ/hcFTIN4QukI5qv6YVrUxzpbGp1M1FyTjvKcYm8QJm4N/A
+/e7syQ4lv7LFiUFztch5fbDAL0Jh1/mLYBp+N6brEZvMwGiG2J7awEK8B8aYzUrf6K5GWFWBHIw/
+JYrCAizf9XcE4o+CfOLLr/sX/xAkuzQ3KTJJfe/wrpWOS2ezXcbo7MPCT3+vi3b57tHfmOegNWnf
+2I65OHi0gw/nf1qUzC2vf7Jlq7OSY2C2eZuKmJy1Ms2jdYSz7N4Qj+17+QxTgPEeWZZSloXUyyQD
+cfFxQYvbXPX2DcnBL9LTFL9x9MO9WtoAN+Qu
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sND7hYlWv6vsU76E4kvsVg7CParQ4uSQWkcrn5TXy2/t7khwA6hAEPTbKUCvzA33giWEk5IMdXi3
+CW4sNFmxYJ8X8A2y/tP23O31ZsjNEDobfdFF35YsW9ZAoqyP8F28x2Tznbyfh8TscpmXVGAcajbu
+TSe5mAbYYZT6/WuKZ/sAdfqxl/fvS1sRFO/xD1/baUzSoxb6dZIXXfYBOf5pWhuBmItPYjy63xkv
+HvAJf7g4940BvDVTd9Ei35S0J8lWcAqB2waphwbI9RQ4JZmcuqIflO2tAsWDQLFJRbkxCFGqkXBL
+miHGe4cts+pIbvx8jHD2B86ztLkUCnaSbKDj8w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature141811-Object799752"><etsi:QualifyingProperties Target="Signature141811"><etsi:SignedProperties Id="Signature141811-SignedProperties124777"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-09-09T08:19:26-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>OyRNcrDIl1lSh/HAWjze7oKkkr0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1283046911</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-790778"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>
+]]></comprobante><mensajes/>
+</autorizacion>

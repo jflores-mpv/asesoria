@@ -1,0 +1,38 @@
+.bg-palmas{
+    background-color: #eaeaea;
+}
+
+.bg-palmas2{
+    background-color: blue;
+}
+
+.bg-palmas3{
+    background-color: #222222;
+}
+
+.thumbnail { 
+ position: relative; 
+} 
+.caption { 
+ position: absolute; 
+ top: 45%; 
+ left: 0; 
+ width: 100%; 
+ color:white;
+ font-size:80px;
+ font-weight:50px;
+} 
+
+
+
+.text-oficont{
+    color: #86462b;
+}
+
+.text-oficont2{
+    color: #9a6a37;
+}
+
+.text-oficont3{
+    color: #222222;
+}

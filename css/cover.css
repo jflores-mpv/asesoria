@@ -1,0 +1,233 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  /*text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+
+
+.cover{
+    /*background-image:  linear-gradient(to bottom, #33ccff 25%, #0033cc 100%), url(../img/gorkeds2.jpg);    */
+    background-image:url(../img/gorkeds2.jpg);
+    
+      filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.blurno {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+/*.blurno{ filter: blur(0px); -webkit-filter: blur(0px);}*/
+
+.cover-m{
+  background-image: url(../img/mock3.jpg);
+  background-size:cover;
+}
+
+.cover-m{
+  background-image: url(../img/mock3.jpg);
+  background-size:cover;
+}
+
+.cover-S{
+  background-image: url(../assets/img/FONDOSERCONTRIP.jpg);
+  background-size:cover;
+}
+
+.cover-mite{
+  background-image: url(../assets/img/FONDOVICENTEMITE.jpg);
+  background-size:cover;
+}
+
+.cover-esecofi{
+  background-image: url(../assets/img/esecofi.jpg);
+  background-size:cover;
+}
+
+.cover-teos{
+  background-image: url(../assets/img/teosFondo.jpg);
+  background-size:cover;
+}
+
+
+
+.cover-servi {
+   background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../assets/img/servigraf.jpg);
+   background-size:100%;
+}
+
+
+.cover-2 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../assets/img/fondoSeccion.png);
+   background-size:cover;
+}
+
+.cover-3 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../assets/img/fondoSeccion2.jpg);
+   background-size:cover;
+}
+
+
+.cover-4 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../assets/img/fondoseccion3.jpg);
+   background-size:cover;
+}
+
+.cover-5 {
+   background-image:  url(../assets/img/fondoAG.jpg);
+   background-size:100%;
+}
+
+
+
+
+
+
+.cover-container {
+  max-width: 100%;
+
+  /*background-image: url(assets/img/fondoGorkeds.png);*/
+}
+
+
+.bg-gold{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)
+}
+
+.bg-m{
+    background-color: #037a76;
+}
+
+.bg-V{
+    background-color: #40b0e5;
+}
+
+.bg-A{
+    background-color: #00adee;
+}
+
+
+.bg-S{
+    background-color: #3a9e3e;
+}
+
+.bg-Mite{
+    background-color: #22729f;
+}
+
+.bg-servi{
+    background-color: #9900cc;
+}
+
+
+.bg-esecofi{
+    background-color: #006cb5;
+}
+
+
+
+
+
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+
+.div1 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../img/1.png');
+   background-size:cover;
+}
+
+
+.div2 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../img/2.png');
+   background-size:cover;
+}
+
+
+.div3 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../img/3.png');
+   background-size:cover;
+}
+
+
+.div4 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../img/4.png');
+   background-size:cover;
+}
+
+
+.div5 {
+   background-image: url('../assets/img/fondoEtiquetas1.jpg');
+   background-size:cover;
+}
+
+
+
+.div6 {
+   background-image:  url('../img/sLagranja.png');
+}
+
+
+.div7 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('.../assets/img/fondoasergrafic.jpg"');
+   background-size:cover;
+}
+
+

@@ -1,0 +1,5 @@
+# Activa el motor de reescritura
+RewriteEngine On
+
+# Establecer la página de inicio principal
+DirectoryIndex home/index.html

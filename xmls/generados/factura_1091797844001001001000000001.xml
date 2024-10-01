@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>ASTROENERGIAS SAS</razonSocial>
+<nombreComercial>ASTROENERGIAS SAS</nombreComercial>
+<ruc>1091797844001</ruc>
+<claveAcceso>0107202401109179784400120010010000000010107202411</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000001</secuencial>
+<dirMatriz>LUIS TOROMORENO 1-31 ENTRE CALIXTO MIRANDA Y BARTOLOME GARCI</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>01/07/2024</fechaEmision>
+<dirEstablecimiento>direccion</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>06</tipoIdentificacionComprador>
+<razonSocialComprador>ELECTRIFREIRE  S.A.S. </razonSocialComprador>
+<identificacionComprador>1091798228001</identificacionComprador>
+<direccionComprador>Avenida Fray Vacas Galindo 7-23 y Carlos Elias Almeida</direccionComprador>
+<totalSinImpuestos>37912.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>17920.00</baseImponible>
+<valor>2688.00</valor>
+</totalImpuesto>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>19992.00</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>40600.000</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>40600.000</total>
+<plazo>0</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>SF70</codigoPrincipal>
+<descripcion>Sistema Fotovoltaico 70 KWpico</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>17920.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>17920.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>17920.00</baseImponible>
+<valor>2688.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+<detalle>
+<codigoPrincipal>PS70</codigoPrincipal>
+<descripcion>Sistema Fotovoltaico Paneles JA Solar 70 KWpico</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>19992.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>19992.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>19992.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">Avenida Fray Vacas Galindo 7-23 y Carlos Elias Almeida</campoAdicional>
+<campoAdicional nombre="TELEFONO">0993720415</campoAdicional>
+<campoAdicional nombre="EMAIL">electri_freire@hotmail.com</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature370055">
+<ds:SignedInfo Id="Signature-SignedInfo307458">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID496059" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature370055-SignedProperties745508">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>S3GkpfICtOvH74KzdMeZomqTvwA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate195307">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>8hgPO1x5TsJnbcdFCihmUu55tas=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-587626" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>eJ9PkWrfilIPeCyxg988AgDCXVc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue424288">
+J1yqvs7XrZkNCDfPYgcmTvZOpW0G9jc+/bqhxPrIqqy6tBCbNuakOSTKr83kqpmLFsYcjTDbJelc
+GrGD8NBT8NTPtwD6yPQ86qyUyXQjXsIf46Ec1w3GyOwAMe0aOdHr0dIIcBJwtSzkx6CBo/G9NXQu
+3Ebnp/aYjXOROhjisjYpMfjgeewnSIFFu43VJcyguhtWAn7e3rtCgo+szPcvKo8WKPaUgLU4lNg4
+fmWnb1lnYHWZ8BWEZ9ol+BUBAu3Ks1yc6VsGMJvrIhx/DXDdezakZpOV4z7pQSt907Yei6jI+VY9
+TN2N3WoAGFoeQ9JcNWeF3RcYu/0igdgf6+4e3g==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate195307">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIMLDCCChSgAwIBAgIEXANt1DANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDA3MDEwMjI3MDBaFw0yNjA3MDEwMjI3MDBaMIGkMSIw
+IAYDVQQDDBlBTEJBIFNVU0FOQSBQUk9BTk8gR0FSQ0VTMSAwHgYDVQQFExcxMDAyMjkwNTMyLTMw
+MDYyNDIxMzY0NjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdgLd5o11oK68O/m3AQm5Pd1PuCJVT8ikECG0cxj6kWYXq
+K3J7Dz71/Aw44iio/WyzmCfBuVXQIb7TH36RJirWa8pg4lpqDbOLsCeCBQNNAClnjdB/eyShqSeb
+fUxn9PSjWArROs54kJ/Z0m59wnNP8v2GFwEesEBw7ZF7086wZ5VH1SVWVz1yuhZ/9NNFmyG/Yv7/
+yR21b4Mwec0A/X/PLcxxu4yTwFX+tbLK6IibUvBeYyjLbjI5lUd2ziWUJ3mhS+yxVWDpARjo+8LI
+GODNZOPhLBUNpp00ymMvq4jpK79qeAJlIQgtteejiF0b4PX6x3U6mPIMbdWUZjXbpK+vAgMBAAGj
+ggdtMIIHaTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkG
+CCsGAQUFBwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0
+LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4
+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJU
+SUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2Nh
+dGlvbkxpc3Q/YmFzZTAeBgNVHREEFzAVgRNzdXN5cGdhQGhvdG1haWwuY29tMIIBFQYDVR0gBIIB
+DDCCAQgwYgYKKwYBBAGCpnICCTBUMFIGCCsGAQUFBwICMEYeRABDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABkAGUAIABSAGUAcAByAGUAcwBlAG4AdABhAG4AdABlACAATABlAGcAYQBsMIGhBgorBgEE
+AYKmcgIDMIGSMIGPBggrBgEFBQcCARaBgmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMv
+d3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGlj
+YXMgZGUgQ2VydGlmaWNhZG8gUmVwcmVzZW50YW50ZSBMZWdhbC5wZGYwggKiBgNVHR8EggKZMIIC
+lTCB5aBBoD+GPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3
+ZWIvc3RhdHVzL29jc3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FD
+SU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UE
+BhMCRUMwgceggcSggcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049
+QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAy
+LEM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9w
+b3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRp
+c3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFPAO+FOTnQYYdaHC
+R5U5pxZjHPc6MCsGA1UdEAQkMCKADzIwMjQwNzAxMDIyNzAwWoEPMjAyNjA3MDEwMjI3MDBaMAsG
+A1UdDwQEAwIF4DAfBgorBgEEAYKmcgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMB
+BAwMCjEwMDIyOTA1MzIwSwYKKwYBBAGCpnIDCQQ9DDtTQU4gTUlHVUVMIERFIElCQVJSQSBDQUJF
+Q0VSQSBDQU5UT05BTCBZIENBUElUQUwgUFJPVklOQ0lBTDARBgorBgEEAYKmcgMiBAMMAS4wMQYK
+KwYBBAGCpnIDBwQjDCFMVUlTIFRPUk9NT1JFTk8gWSBDQUxJWFRPIE1JUkFOREEwGwYKKwYBBAGC
+pnIDAgQNDAtBTEJBIFNVU0FOQTAfBgorBgEEAYKmcgMgBBEMDzAwMzAwMjAwMDAwMjE4MDATBgor
+BgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQI
+DAZQUk9BTk8wIwYKKwYBBAGCpnIDCgQVDBNBU1RST0VORVJHSUFTIFMgQSBTMB0GCisGAQQBgqZy
+AwsEDwwNMTA5MTc5Nzg0NDAwMTARBgorBgEEAYKmcgMdBAMMAS4wFgYKKwYBBAGCpnIDBAQIDAZH
+QVJDRVMwEAYKKwYBBAGCpnIDCAQCDAAwDQYJKoZIhvcNAQELBQADggIBAKje9g8b6CDge/rkjKXZ
+xDnb7G35e0xF90lqpnvFrtN5HbJBmNMFe+0hEgDtsGUYZZjbYhJ2ZAMvVOQx8NpqE8CXEAZOXsIB
+efOMW9XviSZNo+mvB64UQIX/gjlHqu34LNy3bptvwFKmkat2Il20aVM4YC4Jy0ErvpMM2nnkOydf
+UlaBsm/YKkfowqkX5nlQoteUpdKQjoBw9Q/DBPYGTtHGKEppr0QKFN4unVcHZ85jL7gVB43mtI0h
+OduXF5mPLZNXhUS/Emdr0waQXlTyj3Ar3U3sTgkaZSw3msCI19f9+xa8Jakvn0IeOU3u0ktgYbrz
+yjWPiHtxUBijuXPbQv07gwX016e3KuCuhOtxvv8RMnryH2tJYs8S+lWL0DD1eIXr1eoat7p3Bv+c
+DmB0tif3mK0+Qn/g26LnXJ/BnLSeG/LwSDqQO1w0WTRzRo33vWLsrPxHnQS+7cQZs3oKrPV1X+6n
+z18HpMbeIjKfZOZ046eOVFHOgWZMB6X7Dr6FBkcu/CjIuANqgrbExry74YBPAIMdeg4+8Eb/apoH
+tv0mOX/CFjHNRUJfXrKstqimcDLSTWGykxn8HjrHVnTLJr2nHuCBCKtYWRByYsjGlsQkRh8xiFJj
+xdXdp05AN/1SawgfAPUSw+zMVDskey574iyrM/RhFfbLs2qXmA1kpXwU
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nYC3eaNdaCuvDv5twEJuT3dT7giVU/IpBAhtHMY+pFmF6ityew8+9fwMOOIoqP1ss5gnwblV0CG+
+0x9+kSYq1mvKYOJaag2zi7AnggUDTQApZ43Qf3skoaknm31MZ/T0o1gK0TrOeJCf2dJufcJzT/L9
+hhcBHrBAcO2Re9POsGeVR9UlVlc9croWf/TTRZshv2L+/8kdtW+DMHnNAP1/zy3McbuMk8BV/rWy
+yuiIm1LwXmMoy24yOZVHds4llCd5oUvssVVg6QEY6PvCyBjgzWTj4SwVDaadNMpjL6uI6Su/angC
+ZSEILbXno4hdG+D1+sd1OpjyDG3VlGY126Svrw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature370055-Object249140"><etsi:QualifyingProperties Target="Signature370055"><etsi:SignedProperties Id="Signature370055-SignedProperties745508"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-07-01T20:54:01-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>XKs+07Czia5ELuXFrPOC4afNSw4=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1543728596</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-587626"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

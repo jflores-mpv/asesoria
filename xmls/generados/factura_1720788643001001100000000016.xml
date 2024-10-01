@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>CERNA CHIRIBOGA JOHANNA ISABEL</razonSocial>
+<nombreComercial>CERNA CHIRIBOGA JOHANNA ISABEL</nombreComercial>
+<ruc>1720788643001</ruc>
+<claveAcceso>0407202401172078864300120011000000000160407202412</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>100</ptoEmi>
+<secuencial>000000016</secuencial>
+<dirMatriz>SANTO DOMINGO DE LOS TSACHILAS URB JARAMILLO DELGADO</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>04/07/2024</fechaEmision>
+<dirEstablecimiento>Calle: AV. ABRAHAM CALAZACON Numero: S/N Interseccion: PASAJE 3</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>06</tipoIdentificacionComprador>
+<razonSocialComprador>SAFETYMED SOCIEDAD POR ACCIONES SIMPLIFICADA </razonSocialComprador>
+<identificacionComprador>1091797771001</identificacionComprador>
+<direccionComprador>SAN ANTONIO DE IBARRA CALLE FRANCISCO TERAN Y SIMON BOLIVAR</direccionComprador>
+<totalSinImpuestos>1036.53</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>1036.53</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>1036.530</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>1036.530</total>
+<plazo>0</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>008</codigoPrincipal>
+<descripcion>HONORARIOS POR SERVICIOS PROFESIONALES</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>1036.530000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>1036.53</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalle" valor="MES DE JUNIO DEL 2024"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>1036.53</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">SAN ANTONIO DE IBARRA CALLE FRANCISCO TERAN Y SIMON BOLIVAR</campoAdicional>
+<campoAdicional nombre="TELEFONO">062615179</campoAdicional>
+<campoAdicional nombre="EMAIL">talentolaslajas@gmail.com</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature414556">
+<ds:SignedInfo Id="Signature-SignedInfo777166">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID723800" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature414556-SignedProperties713198">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>FO4OJ7FCHJ41EF/UaPny1TrgXkk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate453069">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>+NvfYBxrTp9pNyAP26QGEub37wA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-479504" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>sqWfzUvukmUDe9S2h1LAOPQwg/E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue135952">
+G/5rMjQDDtvLeT0OvqDeIr8XA4JuWeKdoZfnraRwc3YARVrwZULEZj4HJWda4QsvWb6iUdd8Vioo
+xIoColsufaPgqXzpq6NyA3X3G23aXMbl4pjfLYa6YpLTS4sbNMO7vf4asWPAgbWGyrKrmpfxpF/9
+sCCLKMillBvQNHqZ+IqFikDl0jaN0KmVsZeCh5k4kdwb7KOxoGVEhZuw+VYdgMwEvhgXD9bXte9Q
+lP/qrR/QUnXLKhHvf3Zq6oloxdBhrtIneaDhbd3pQTKtOlEoNI1OtCl+1V04dTZLb03/rMem71oI
+6LPWIAk3LRTE6kBmlOGIG1bQddW+SdcP0KE3gg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate453069">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJBjCCBu6gAwIBAgIEW2ncGDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIxMDcxNDE2NTY1NloXDTIzMDcxNDE3MjY1
+NlowgbYxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE6MBEGA1UEBRMKMDAwMDY1NzMxMDAlBgNVBAMTHkpPSEFOTkEgSVNBQkVM
+IENFUk5BIENISVJJQk9HQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKTlMkj/pMgE
+ldRz0fbOFqgbYdrXPm7IP9OE0KGa3zZg456VOrwSRrBvzxxL/Wi79A7czlCIN48ftSwDiIZrHHiB
+y1sNgCuHJNI8tsy8BM/OOTdyatqTW8Me8gCt05iMxUaKYUp8EIBrXrNodBSkJ20MLNzYw1DH5uq8
+CVuvJFLIiIb0T+BsHPM0v887J+HTt46H5i4dT96mdufNaHfvV1123TplRS41N0elzVFxzcIozwqv
+BCQY8vjqfFi6qA/+5MzZb8Qlc62HNoesVnTzudru+MztdChX8wLLvVGn3SJd4Ew/OTIR9IO+ap6b
+wuP88PiMvdV2kbrG1yWpB4nd6skCAwEAAaOCBC0wggQpMAsGA1UdDwQEAwIFIDCBkQYIKwYBBQUH
+AQEEgYQwgYEwPgYIKwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGlj
+d2ViL3N0YXR1cy9vY3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJj
+YS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwGgYKKwYBBAGCqDsDAQQMEwoxNzIwNzg4NjQzMB4GCisG
+AQQBgqg7AwIEEBMOSk9IQU5OQSBJU0FCRUwwFQYKKwYBBAGCqDsDAwQHEwVDRVJOQTAZBgorBgEE
+AYKoOwMEBAsTCUNISVJJQk9HQTA9BgorBgEEAYKoOwMHBC8TLVNBTlRPIERPTUlOR08gREUgTE9T
+IFRTQUNISVNJR0NIT1MgTEFTIFBBTVBBUzAZBgorBgEEAYKoOwMIBAsTCTAzMjcwMzAwNDAXBgor
+BgEEAYKoOwMJBAkTB1NpZ2Nob3MwFwYKKwYBBAGCqDsDDAQJEwdFQ1VBRE9SMCAGCisGAQQBgqg7
+AzMEEhMQU09GVFdBUkUtQVJDSElWTzAfBgNVHREEGDAWgRRpc2FjZXJuYS4zQGdtYWlsLmNvbTCC
+AeEGA1UdHwSCAdgwggHUMIIB0KCCAcygggHIhoHWbGRhcDovL2JjZXFsZGFwc3VicDEuYmNlLmVj
+L2NuPUNSTDEzMTEsY249QUMlMjBCQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGw9UVVJ
+VE8sb3U9RU5USURBRCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMERFJTIwSU5GT1JNQUNJT04tRUNJ
+QkNFLG89QkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixjPUVDP2NlcnRpZmljYXRlUmV2
+b2NhdGlvbkxpc3Q/YmFzZYY0aHR0cDovL3d3dy5lY2kuYmNlLmVjL0NSTC9lY2lfYmNlX2VjX2Ny
+bGZpbGVjb21iLmNybKSBtjCBszELMAkGA1UEBhMCRUMxIjAgBgNVBAoTGUJBTkNPIENFTlRSQUwg
+REVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1B
+Q0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxBQyBCQU5DTyBDRU5UUkFMIERF
+TCBFQ1VBRE9SMRAwDgYDVQQDEwdDUkwxMzExMB8GA1UdIwQYMBaAFEii3yMfHfgsUXqMA81JMqUJ
+wZSrMB0GA1UdDgQWBBTz286NSH+RiInm7+vG0901LqRnIjAJBgNVHRMEAjAAMBkGCSqGSIb2fQdB
+AAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUAA4ICAQCUD3jqXC/KoBJtsDwbpURk4zcAdnmH
+GzHzYYdyqsYQ9n+sZIUVgoEmoz3qi56m++H/cNJNRbmnw9GenBE6KRi4IhQbMENs2Rwnab2DH+hT
+iuL+wakKhU5i8V7I42i/gacglgciyy6ozaGyQkakct+WuvWp/gcxWs6hGPFbQ7P7Gp7EhE6GymGV
+lfIEQd626yHGU8ejdeGGM2eFcrSX8EKlVklxGigsQ+KLlNwxECpfC2ByCpPGyC+W6lhYbsZTRMlD
+N+zrJpNVg+I1y0fMlS9QPylragL8xNaMn1cKQ3Lvpj9BgBMh1KK+O9OmxbzpcWICmBi4cy+Mo5h+
+bgv3///cQEW0+FzpoPsmUCsD6OUcW1MYNkWCt3MQbCIVAlGW9+moUc5O/RK48UOVVvE/7gDemvKC
+9MI7bs8jugbgLv3bNIGquHCmijRjEKpiJP6KeluUIlgHwye1GB73Dcbzbni78CvQXEc6x6lo+g5o
+yxLazXRJCn1BSmXfX1Rwd3A9ta8yaHW06vynDh7PMQ0HUx3xSKvXa6CGXo8ln/LxDO9KtdgoOaNj
+NCrjvS+maRnBKtU3hmanFz+m35AxSZp6XhDCEINyjYGFN4Bz1E0uNqLUpu228VHaBZLOROvZcUVF
+s+Ns+Ev6GQf9Cw/G4tEYIBGbK8+fRgH5MDu3HCG3hf8HHw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+pOUySP+kyASV1HPR9s4WqBth2tc+bsg/04TQoZrfNmDjnpU6vBJGsG/PHEv9aLv0DtzOUIg3jx+1
+LAOIhmsceIHLWw2AK4ck0jy2zLwEz845N3Jq2pNbwx7yAK3TmIzFRophSnwQgGtes2h0FKQnbQws
+3NjDUMfm6rwJW68kUsiIhvRP4Gwc8zS/zzsn4dO3jofmLh1P3qZ2581od+9XXXbdOmVFLjU3R6XN
+UXHNwijPCq8EJBjy+Op8WLqoD/7kzNlvxCVzrYc2h6xWdPO52u74zO10KFfzAsu9UafdIl3gTD85
+MhH0g75qnpvC4/zw+Iy91XaRusbXJakHid3qyQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature414556-Object497790"><etsi:QualifyingProperties Target="Signature414556"><etsi:SignedProperties Id="Signature414556-SignedProperties713198"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-07-04T19:57:45-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>NC7o9py0/DSUW2ObSMIf40ODegY=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533664280</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-479504"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>

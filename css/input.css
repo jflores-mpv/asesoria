@@ -1,0 +1,95 @@
+
+.input-a
+{
+
+     width: 100%;
+     max-width: 500px;
+}
+
+
+
+.input-res
+{
+
+     width: 100%;
+     max-width: 500px;
+     box-sizing: border-box;
+     border-bottom: solid 1px;
+
+}
+
+.input-t
+{
+
+     width: 5%;
+     max-width: 500px;
+     border: solid 1px;
+
+}
+
+.input-b
+{
+
+     width: 100%;
+     max-width: 500px;
+     border: solid 1px;
+
+}
+.input-c
+{
+
+     width: 100%;
+     max-width: 500px;
+     position:center;
+     color:#FFFFFF;
+   
+   
+     background-color:blue;
+     
+
+}
+
+.input-d
+{
+
+     width: 60%;
+     max-width: 500px;
+     position:center;
+     border-bottom: solid 1px;
+     
+
+}
+
+.input-e
+{
+
+     width: 5%;
+     max-width: 500px;
+     position:center;
+     
+
+}
+
+.input-f
+{
+
+     width: 60%;
+     max-width: 500px;
+     position:center;
+     
+
+}
+
+
+.encabezado-tabla
+{
+  background-color: BLUE;
+  
+  width: 100px;
+  height: 7%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+
+

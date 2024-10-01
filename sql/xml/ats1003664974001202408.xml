@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iva>
+  <TipoIDInformante>R</TipoIDInformante>
+  <IdInformante>1003664974001</IdInformante>
+  <razonSocial>HOSTAL FLOR DE ZAGALA</razonSocial>
+  <Anio>2024</Anio>
+  <Mes>08</Mes>
+  <numEstabRuc>001</numEstabRuc>
+  <totalVentas>0.00</totalVentas>
+  <codigoOperativo>IVA</codigoOperativo>
+  <compras/>
+  <ventas/>
+  <ventasEstablecimiento>
+    <ventaEst>
+      <codEstab>001</codEstab>
+      <ventasEstab>0</ventasEstab>
+    </ventaEst>
+  </ventasEstablecimiento>
+</iva>

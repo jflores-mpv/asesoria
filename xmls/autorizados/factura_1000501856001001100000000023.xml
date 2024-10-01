@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0309202401100050185600120011000000000230309202415</numeroAutorizacion>
+<fechaAutorizacion>2024-09-03T00:11:48-05:00</fechaAutorizacion>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>GARCES ALDAS OLIMPIA ROSANA</razonSocial>
+<nombreComercial>GARCES ALDAS OLIMPIA ROSANA</nombreComercial>
+<ruc>1000501856001</ruc>
+<claveAcceso>0309202401100050185600120011000000000230309202415</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>100</ptoEmi>
+<secuencial>000000023</secuencial>
+<dirMatriz>SANCHEZ Y CIFUENTES 15-31</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>03/09/2024</fechaEmision>
+<dirEstablecimiento>SANCHEZ Y CIFUENTES 15-31</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>JESSICA  PAREDES MAYACELA</razonSocialComprador>
+<identificacionComprador>0401422241001</identificacionComprador>
+<direccionComprador>SANCHEZ Y CIFUENTES 15-39</direccionComprador>
+<totalSinImpuestos>600.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>600.00</baseImponible>
+<valor>90.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>690.000</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>690.000</total>
+<plazo>1</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>A01</codigoPrincipal>
+<descripcion>ARRIENDO LOCAL COMERCIAL</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>600.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>600.00</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalle" valor="DEL 01-09-2024 AL 30-09-2024"/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>4</codigoPorcentaje>
+<tarifa>15</tarifa>
+<baseImponible>600.00</baseImponible>
+<valor>90.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">SANCHEZ Y CIFUENTES 15-39</campoAdicional>
+<campoAdicional nombre="EMAIL">jesslpm@hotmail.com</campoAdicional>
+<campoAdicional nombre="DETALLE">SEPTIEMBRE 2024</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature624164">
+<ds:SignedInfo Id="Signature-SignedInfo194365">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID268793" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature624164-SignedProperties343656">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>qXNz6NZQ/X0gUgWfjer/CemheO0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate388172">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>e2jKdibspHwB9IC4doXXu6VGgzI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-948801" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/7hqM5zbFrvC+BVMg0lmURfxEzo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue890302">
+X2eI4FkPxlOcgyCY7MT3py6flICsWFsOnlXUhxCVHoUDoT/DoQs62ISVwoFV865oiRdAE3blmAOk
+FqoFC7iyoRGzhsac8EB8snjCipHQ2CpzLocaM2YqPp68qfO/OrHEwqtuplyfuFiHbJ2/4SpUSSsF
+SL+P8nX6bgyQMRNgeW7SjLtu3SLtSvo36C+ZrVQ/ouNBkTBzmvJD6TtSppx/iW1lEmP5EOyhv1gj
+sPmCIjX4y5Z4LAym7GnAbNZNJ8VjuyDrQTjCSlH7a19pg9qAg+sMZKT/re3M0XmpHD1pdZOjWo+J
+dfz9V+smDIzDimAib/c4ZTmySaakLOwuVA5Cuw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate388172">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL5zCCCc+gAwIBAgIEYTDVQTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzExMDMxNTI3NDBaFw0yODExMDIxNTI3NDBaMIGbMSQw
+IgYDVQQDDBtPTElNUElBIFJPU0FOQSBHQVJDRVMgQUxEQVMxFTATBgNVBAUTDDAzMTEyMzEwMzcy
+MDEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0wGwYD
+VQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC0H0X9q/xQMgdowz2O3zIQSto2ZyzyPkyyN3UnKKSduyvde2wSOhcTaZaA
+qSBaIxjvjyzGrqZneEkP9XPsM+SR+DRJ0d7pI6Jvqikg0QkNuclW+1WB/SH+vtD9KNKjNyMX+q9T
+eaApD3sHfeyd3+58y3gBJzItmgjJhlqqVlsVwhR4aSBkj4/bjAKlOaSSLJ94I1JEp5AqF6nTE6EA
+FhO/IBiKIyTXyjl293CL08j3WbJu81wyJqzvseJNEdZXUTTV7n/Ca+ecCsX8UAXquIY//ZlXpGsg
+m5ahGDrvMN85Dxzsd0Lpgat64kJ3p28C/Qd4FfY0HytZoJ4ljoCY02OXAgMBAAGjggcxMIIHLTAM
+BgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUFBwEB
+BE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNh
+L3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDovL2xk
+YXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9O
+IFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5G
+T1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxpc3Q/
+YmFzZTAqBgNVHREEIzAhgR9mYWN0dXJhcy5yb3NhbmFnYXJjZXNAZ21haWwuY29tMIIBBgYDVR0g
+BIH+MIH7MFoGCisGAQQBgqZyAgcwTDBKBggrBgEFBQcCAjA+HjwAQwBlAHIAdABpAGYAaQBjAGEA
+ZABvACAAZABlACAAUABlAHIAcwBvAG4AYQAgAE4AYQB0AHUAcgBhAGwwgZwGCisGAQQBgqZyAgEw
+gY0wgYoGCCsGAQUFBwIBFn5odHRwczovL3d3dy5zZWN1cml0eWRhdGEubmV0LmVjL3dwLWNvbnRl
+bnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZpY2Fkb3MvUG9saXRpY2FzIGRlIENl
+cnRpZmljYWRvIFBlcnNvbmEgTmF0dXJhbC5wZGYwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0
+dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3CigZ+kgZwwgZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIg
+U0VDVVJJVFkgREFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9S
+TUFDSU9OMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSg
+gcGGgb5sZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERF
+IENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlm
+aWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFk
+b3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/
+Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNV
+UklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNF
+Q1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFJ9qbZ8tVQNdlecRc5tMyUOtsbmZMCsG
+A1UdEAQkMCKADzIwMjMxMTAzMTUyNzQwWoEPMjAyODExMDIxNTI3NDBaMAsGA1UdDwQEAwIF4DAa
+BgorBgEEAYKmcgMBBAwMCjEwMDA1MDE4NTYwFgYKKwYBBAGCpnIDCQQIDAZJQkFSUkEwEQYKKwYB
+BAGCpnIDIgQDDAEuMEEGCisGAQQBgqZyAwcEMwwxU0FOQ0hFWiBZIENJRlVFTlRFUyAxNSAzMSBZ
+IFJBRkFFTCBMQVJSRUEgQU5EUkFERTAeBgorBgEEAYKmcgMCBBAMDk9MSU1QSUEgUk9TQU5BMB8G
+CisGAQQBgqZyAyAEEQwPMDAyMDAxMDAwNjkwNzk2MBEGCisGAQQBgqZyAyMEAwwBLjATBgorBgEE
+AYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZH
+QVJDRVMwEQYKKwYBBAGCpnIDHgQDDAEuMB0GCisGAQQBgqZyAwsEDwwNMTAwMDUwMTg1NjAwMTAR
+BgorBgEEAYKmcgMdBAMMAS4wFQYKKwYBBAGCpnIDBAQHDAVBTERBUzAaBgorBgEEAYKmcgMIBAwM
+CjA5Njg1NTc0MjgwDQYJKoZIhvcNAQELBQADggIBABn8/GHWYZo5Z5KyuvdSjyuLHmuW4QTGVwW3
+IoYMrmqHUMKiCAtLYEiTgMT/OqIlkQXMtXOATK8SoCHVvukaMthiiLfE0k5SF3vPQ596pA7H/kJj
+/PB3uZ2l0BE9OCGqgxnBfNCP72d72+PvguZbkyXGG4ju+QSO5kT5qxbQJveX1G/9GSSLUNBn/epq
+jyW/VtdQOKB/erBwrBdQ9uBNugqItXU1BWLLTBsQ0YcYFOp/0z7HeZeLj3Vx6xgd4XVcY4SC4+PY
+DSx5rgCwUYWV9KOfHwHi54023IIr2dux2W8Hvxqesl4Y56q7Ov0DvqSUDZc9MYwZtUGV6Ar5NIdv
+1yvz3Zki4x7KXs8oRQksh2nmOvcxkX/pBH1eflkIbdBfEzKvV6H1TdWWbkWJSdPetf0dmigXf9iG
+lZ5CMfXxSVzJmjLVY2wwcroF/f8osJ8GnKzkh9xDprWHC2iVpHjXVBz+CxaI/A0Ri/gMPj55qhr5
+AEIWRJWKDXukJB0rIplzw5T/uDVvVcofOowNjvzBw4wiJPM7r4zHEWmnkXQ/LdpP50nuSiKZgYrV
+CXih6V7Dw47kOjN8EAAVNZp12xVzIPrxhg+CKpJykKLjlBjbsuBFMx6QBj6IPHFaEsvTLv3cak0D
+XX8JpEGZgJSBTk42BGLJbLyWRbK0meEwlU1pj4nj
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+tB9F/av8UDIHaMM9jt8yEEraNmcs8j5Msjd1Jyiknbsr3XtsEjoXE2mWgKkgWiMY748sxq6mZ3hJ
+D/Vz7DPkkfg0SdHe6SOib6opINEJDbnJVvtVgf0h/r7Q/SjSozcjF/qvU3mgKQ97B33snd/ufMt4
+AScyLZoIyYZaqlZbFcIUeGkgZI+P24wCpTmkkiyfeCNSRKeQKhep0xOhABYTvyAYiiMk18o5dvdw
+i9PI91mybvNcMias77HiTRHWV1E01e5/wmvnnArF/FAF6riGP/2ZV6RrIJuWoRg67zDfOQ8c7HdC
+6YGreuJCd6dvAv0HeBX2NB8rWaCeJY6AmNNjlw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature624164-Object646182"><etsi:QualifyingProperties Target="Signature624164"><etsi:SignedProperties Id="Signature624164-SignedProperties343656"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-09-03T00:11:47-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>qwYyzyxyO6l2rz3uU00DPlUkG2c=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1630590273</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-948801"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>
+]]></comprobante><mensajes/>
+</autorizacion>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>PANTOJA BURBANO ANDREA JACQUELINE</razonSocial>
+<nombreComercial>PANTOJA BURBANO ANDREA JACQUELINE</nombreComercial>
+<ruc>0400742581001</ruc>
+<claveAcceso>0509202401040074258100120010010000000010509202413</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000000001</secuencial>
+<dirMatriz>Conjunto: EL RETORNO Bloque: 20 Y M-4B</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>05/09/2024</fechaEmision>
+<dirEstablecimiento> Conjunto: EL RETORNO Bloque: 20 Y M-4B Referencia: A TRES CUADRAS DEL  POLIDEPORTIVO LA CANDELARIA</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>Colegio Santa Maria Eufrasia </razonSocialComprador>
+<identificacionComprador>1790093824001</identificacionComprador>
+<direccionComprador>Avenida Gaspar de Villaroel E7-38</direccionComprador>
+<totalSinImpuestos>150.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<descuentoAdicional>0.00</descuentoAdicional>
+<baseImponible>150.00</baseImponible>
+<valor>0.00</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.000</propina>
+<importeTotal>150.000</importeTotal>
+<moneda>DOLAR</moneda>
+<pagos>
+<pago>
+<formaPago>20</formaPago>
+<total>150.000</total>
+<plazo>1</plazo>
+<unidadTiempo>Dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>S01</codigoPrincipal>
+<descripcion>PRESTACION DE SERVICIOS PROFESIONALES</descripcion>
+<cantidad>1</cantidad>
+<precioUnitario>150.000000</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>150.00</precioTotalSinImpuesto>
+<detallesAdicionales>
+<detAdicional nombre="detalle" valor="Psicología Clínica: sesión de psicoeducación para el bienestar emocional."/>
+</detallesAdicionales>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>0</codigoPorcentaje>
+<tarifa>0</tarifa>
+<baseImponible>150.00</baseImponible>
+<valor>0.00</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="DIRECCION">Avenida Gaspar de Villaroel E7-38</campoAdicional>
+<campoAdicional nombre="TELEFONO">2433947</campoAdicional>
+<campoAdicional nombre="EMAIL">contabilidad@uesme.edu.ec</campoAdicional>
+</infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature163394">
+<ds:SignedInfo Id="Signature-SignedInfo553097">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID234897" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature163394-SignedProperties808327">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>+lTp2BIT+IhqwUame2I0bm+etAI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate571121">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>qS5g6qNoz7m473y6Gt3BtUqIQdE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-823012" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>MXg5wF/QBowb1b/yn4o0l8IOu3M=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue444575">
+H8plC7dHnERVA7gZLA4pMDIX1W7B7OfBMQGgTm/gs1cKritU5ToT3H4pVdFlq6yYCCOALBVoUJna
+kuL2j24y3ZNXCIWbuT2aMXknQq+YmiREk1qQ8z7YDOh7FTSKIqrl09qB3oA7bXDGuf7Xdi4gXcsg
+rV/qH+Nsk/fV4OJJem7swYbLmJELqH6VSPKsjf3BYq18YsA+/yD87qe/B885stSUPuM9OwM5q5wl
+4355ElvlHKBpyTmxvMGi8y6y0WPwdplJYwpyhX5XTJju0KZA25uNc/uAH742YEPEULmllQKbwvIL
+VjdifPMSoWP20yBX5UGMp+sL4wN+vCf9uqEklg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate571121">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJcTCCB1mgAwIBAgIIMfBTjvjulO8wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI0MDkwNDE3MDQwMFoXDTI3MDkwNDE3MDQwMFowgagxCzAJBgNVBAYTAkVDMRgwFgYDVQQEDA9Q
+QU5UT0pBIEJVUkJBTk8xGjAYBgNVBCoMEUFORFJFQSBKQUNRVUVMSU5FMRkwFwYDVQQFExBJRENF
+Qy0wNDAwNzQyNTgxMSowKAYDVQQDDCFBTkRSRUEgSkFDUVVFTElORSBQQU5UT0pBIEJVUkJBTk8x
+HDAaBgNVBGEME1RJTkVDLTA0MDA3NDI1ODEwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCA313FSeHPETNDKP7P3IsUjK/6qtOYmqpzhlwKxD5oX8n4Q/+nJJM2/4ZULMdpuYSnsdEq
+cVp7P8ApZK1buzHGAYdgag++cAEjQKbKRdQ9vLQBBdmnwah8R85YzBYPaixK0WgBP6hGzlwRulDY
+W8RLNLJWJNUPBOyjOnJxUPaf8aua4nc7cu+rstDzNtvsdBHbLT/YCFyi1F3USnHSpsytovDz2NuY
+rmBl6X4QhSaedgJ9lhlbY2BJ4ZSodyadoqTQUIeNO1hd4y9ytaBqUkrude+9OIzEJMktGCLEEAjC
+chL8m1zI/SjvdgkhcNIK1rqrSoJevUWO7eQxvJi0gdkrAgMBAAGjggSLMIIEhzAbBgsrBgEEAYLx
+NmYDAQQMDAowNDAwNzQyNTgxMB4GCysGAQQBgvE2ZgMLBA8MDTA0MDA3NDI1ODEwMDEwgdcGCCsG
+AQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9wdWJsaWMv
+ZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUFBzABhipo
+dHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUHMAGGKmh0
+dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQU3V9CoZE9
+Rh/LhhDnU2GWZiRQ3NcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqnio2jw4RGy
+dJJz/TCBmQYDVR0gBIGRMIGOMIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYraHR0cHM6
+Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0DDJDRVJU
+SUZJQ0FETyBERSBQRVJTT05BIE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYDVR0fBIGH
+MIGEMECgPqA8hjpodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwvQ0Eyc3Vi
+b3JkaW5hZGEuY3JsMECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9j
+cmwvQ0Eyc3Vib3JkaW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcD
+AgYIKwYBBQUHAwQwggHBBgNVHREEggG4MIIBtIEVYW5keWphY3N0ZXJAZ21haWwuY29toBsGCysG
+AQQBgvE2ZgMBoAwMCjA0MDA3NDI1ODGgIgYLKwYBBAGC8TZmAwKgEwwRQU5EUkVBIEpBQ1FVRUxJ
+TkWgGAYLKwYBBAGC8TZmAwOgCQwHUEFOVE9KQaAYBgsrBgEEAYLxNmYDBKAJDAdCVVJCQU5PoHIG
+CysGAQQBgvE2ZgMHoGMMYUNPTkpVTlRPOiBFTCBSRVRPUk5PIEJMT1FVRTogMjAgWSBNLTRCIFJF
+RkVSRU5DSUE6IEEgVFJFUyBDVUFEUkFTIERFTCBQT0xJREVQT1JUSVZPIExBIENBTkRFTEFSSUGg
+HwYLKwYBBAGC8TZmAwigEAwOMDA1OTM5NTg4ODcxMzCgFwYLKwYBBAGC8TZmAwmgCAwGSUJBUlJB
+oB4GCysGAQQBgvE2ZgMLoA8MDTA0MDA3NDI1ODEwMDGgEwYLKwYBBAGC8TZmAwygBAwCRUOgKQYL
+KwYBBAGC8TZmAzKgGgwYUEVSU09OQSBOQVRVUkFMIE8gRklTSUNBoBgGCysGAQQBgvE2ZgMzoAkM
+B0FSQ0hJVk8wDQYJKoZIhvcNAQELBQADggIBACBsqPnsaF04UwWV5PR8qDtL9r5/OqigwC36DRK5
+glmassyMAGPjFRwOpKdD6CcdPgi/nZ80dJpDcEkmrxiSgUtv+sSnmToG42T7p1fUflxxaX6tfG6b
+wEcyFWDRdlLrGo0tVRevLZ7n+NXOy/1ZA9qeNy5MYs23acQQF9mKAndTjbnuFJ80/7LReSZNNosW
+WUXGyLlZKkK7DkA7D4o1EQ9f0IfIS+VxFVsczszxyxz8b3T79PX8FA63xjJb3yFOoLlC5FaZ/3U5
+FT1nYxJHd2WaiqAxirrfewkJMWn7yIFNE4eoBwNWQEvBJKsRIIhXMLDugzl1dtrx+GmFna7nIBf+
+PVSbREuzGFLTSbidIloYA2SsMSnTTIzEPb1a5Tih3Ss1+WkT86aVAeWVVIAkUqZ5cxiQursUumyC
+I9QDhQuzcVu/aqPYhMwqhO1JzY93yM5KHCPz0O5cidIaICsch5ToAd1eFZBh9R3QVUqZ9qSMVTN7
+ZcSVwth4rx9Jw5eXGcMAC9e1l9vkrY6m+ZrK3aNfWo1Xj4bMA3v/utiXSBoegrP8Jhi361kd6ZaO
+3kolexaZgWPV1Vt9WcvQlybFs7RvzcUPcZEWwe5RdlERv/0TF5yhgliqhR+Rw0SEby33nC6Un/FL
+iSG3YqpTC/QdPSGK1e/+uYII7lMIgVgFE2iR
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+gN9dxUnhzxEzQyj+z9yLFIyv+qrTmJqqc4ZcCsQ+aF/J+EP/pySTNv+GVCzHabmEp7HRKnFaez/A
+KWStW7sxxgGHYGoPvnABI0CmykXUPby0AQXZp8GofEfOWMwWD2osStFoAT+oRs5cEbpQ2FvESzSy
+ViTVDwTsozpycVD2n/GrmuJ3O3Lvq7LQ8zbb7HQR2y0/2AhcotRd1Epx0qbMraLw89jbmK5gZel+
+EIUmnnYCfZYZW2NgSeGUqHcmnaKk0FCHjTtYXeMvcrWgalJK7nXvvTiMxCTJLRgixBAIwnIS/Jtc
+yP0o73YJIXDSCta6q0qCXr1Fju3kMbyYtIHZKw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature163394-Object636490"><etsi:QualifyingProperties Target="Signature163394"><etsi:SignedProperties Id="Signature163394-SignedProperties808327"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-09-05T20:33:31-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>nEzEjTNrMGzokRtYRpa9wqZRSDQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=VATES-A66721499,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O = UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>3598467975795873007</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-823012"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object>
+</ds:Signature></factura>
